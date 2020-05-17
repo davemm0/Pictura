@@ -22,7 +22,7 @@ Ihighly recommend starting from the Sample scene. When creating a level for Pict
 1. Post-Effects: This sample project contains the Post-Process v2.3.0 package. Post-Processes are hgihly recommended, as they can give a visual identity, style and greatly enhance the quality of your scene. They are the secret to an amazing environment! The "Environment" GameObject is already setup as a Post-process volume. You can adjust these settings in the inspector, and we encourage you to play around with them!
 2. Sun: The Sun is simply a Directional Light, Change it's rotation to change its direction.
 4. Lighting: The lighting panel contains many options for adjusting the lighting of yourscene. Experiment with these to give yuor level a unique look.
-5. Project: The Sample Project is already setup properly with the correct tags and layers. Do not touch these, as they are very important for pictura to interpretthe game properly. Even the order is important.
+5. Audio: The sample level has a GameObject called "Music" with an AudioSource on it. Simply change the audio clip to set te usic for your level
 
 ## Other Considerations & Pitfalls
 1. Camera: You can and should have a camera in the level while testing, but make sure to disable it or delete it before publishing. 
@@ -30,7 +30,9 @@ Ihighly recommend starting from the Sample scene. When creating a level for Pict
 3. Size & Perormances: The size of your scene and how denily populated it is can affect performances, especially for players with lower-end computers and playiing on mobile devices. Make sure to checkperformances in check when building yuor scene, by checking the "Stats" Windows in your game view. As a general rule of thumb, you should aim for under 2M triangles and 10k batches, but this varies depending on the nature of the objects and complexity of the materials, as well as many other factors. Keep an eye on it!
 4. Animations: Animations can be created and added to the scene.
 5. Lights: You can add lights to your level, but beware that lights can have a significant impact on performances, especially if they have a wide area and cast shadows.
-6. Scripts: You *cannot* include any scripts in a level, or Pictura will crash. The only exception is the "PointOfInterest" script that you can add to our scene.
+6. Project: The Sample Project is already setup properly with the correct tags and layers. Do not touch these, as they are very important for pictura to interpretthe game properly. Even the order is important.
+7. Scripts: You *cannot* include any scripts in a level, or Pictura will crash. The only exception is the "PointOfInterest" script that you can add to our scene.
+
 
 ## Where can I find Assets & 3D Models?
 There are many places where you can find free assets, 3D models and animatinos to add to your scene. You will want to download files in the .fbx format to import them into Unity. 
